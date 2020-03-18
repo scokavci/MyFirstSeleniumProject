@@ -16,7 +16,6 @@ public class Homework_TestCases_6To12 {
     private String URL = "https://practice-cybertekschool.herokuapp.com/";
     private String URL1="https://www.tempmailaddress.com";
 
-
     @Test(description="testcase #6")
     public void verifyEmailSet() {
         driver.get(URL1);
@@ -83,6 +82,7 @@ public class Homework_TestCases_6To12 {
         BrowserUtils.wait(4);
         String expected = "You selected: United States of America";
         Assert.assertEquals(actual,expected,"it's not matching");
+
     }
     @Test (description="test case #9")
     public void verifyStatusMessage200(){
