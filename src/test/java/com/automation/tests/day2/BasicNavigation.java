@@ -59,7 +59,7 @@ public class BasicNavigation {
         Thread.sleep(3000);  // for demo, wait 3 seconds
 
         //must be at the end
-        driver.close(); // to close browser ;broswer
+        driver.close(); // to close browser ;close 1 particular current window
     }
     public static void verifyEquals(String arg1, String arg2){
         if(arg1.equals(arg2)){
